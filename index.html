@@ -6,31 +6,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="page-body">
     <div class="cont">
         <header class="page-header">
             <nav class="navigation">
                 <ul class="navigation__list">
                     <li class="navigation__link"><a href="#">Bio</a></li>
-                    <li class="navigation__link"><a href="#">Contacts</a></li>
+                    <li class="navigation__link"><a href="#">Contact</a></li>
                     <li class="navigation__link"><a href="#">Skills</a></li>
                     <li class="navigation__link"><a href="#">Code example</a></li>
-                    <li class="navigation__link"><a href="#"></a>Projects</li>
-                    <li class="navigation__link"><a href="#">Languages</a></li>
+                    <li class="navigation__link"><a href="#">Projects</a></li>
+                    <li class="navigation__link"><a href="#">Education</a></li>
                 </ul>
             </nav>
 
         </header>
-        <main>
-            <h1>Serhii Shafaruk</h1>
-            <h2>Front-end developer</h2>
+        <main class="page-main">
+            <div class="left-side">
+                <div class="photo-img">
+                    <img src="/img/photo.jpg" alt="photo Serhii Shafaruk">
+                </div>
+                <div class="bio">
+                    <h2 class="h2 bio__h2">Biography</h2>
+                    <div class="bio__full-name">Name: Serhii Shafaruk</div>
+                    <div class="bio__date-of-birth">Date of birth: 29.12.1993</div>
+                    <div class="bio__relationship">Relationship: married</div>
+                    <div class="bio__nationality">Nationality: Ukranian</div>
+                </div>
+                <div class="contact">
+                    <h2 class="h2 contact__h2">Contact</h2>
+                    <div class="contact__phone">Phone: +372 56 16 ** **</div>
+                    <div class="contact__tg">Telegram: @serzzz</div>
+                    <div class="contact__github">GitHub: serhiishf </div>
+                    <div class="contact__email">Email: unison447@gmail.com</div>
+                </div>
 
+            </div>
+
+            <div class="right-side">
+                <h1 class="h1">Serhii Shafaruk</h1>
+                <h2 class="h2 right-side__h2">Front-end developer</h2>
+                <div class="about-myself">
+                    <h2 class="h2 about-myself__h2">About myself</h2>
+                    <p class="p about-myself__p">Now I am studying at RS SCHOOL for a profession Software Engineer
+                        JavaScript / Front-end.</p>
+                </div>
+                <div class="skills">
+                    <h2 class="h2 skills__h2">Skills</h2>
+                    <ul class="ul skills__ul">
+                        <li class="li skills__item">HTML 5</li>
+                        <li class="li skills__item">Methodology BEM</li>
+                        <li class="li skills__item">Java Script</li>
+                        <li class="li skills__item">Git</li>
+                    </ul>
+                </div>
+                <div class="code-example">
+                    <h2 class="h2 code-example__h2">Code example</h2>
+                    <h3 class="h3 code-example__h3">Task (Codewars kata)</h3>
+                    <p class="p code-example__p"> Find the difference between the sum of the squares of the first n
+                        natural numbers (1 <= n <=100) and the square of their sum. </p>
+                            <p class="p code-example__p">
+                                For example, when n = 10:
+                            </p>
+                            <p class="p code-example__p">
+                                The square of the sum of the numbers is:
+                                (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10)2 = 552 = 3025
+                            </p>
+                            <p class="p code-example__p"> The sum of the squares of the numbers is:
+                                12 + 22 + 32 + 42 + 52 + 62 + 72 + 82 + 92 + 102 = 385</p>
+                            <p class="p code-example__p">
+                                Hence the difference between square of the sum of the first ten natural numbers and the
+                                sum of the squares of those numbes is: 3025 - 385 = 2640
+                            </p>
+                            <h3 class="h3 code-example__h3">Solutions</h3>
+                            <pre class="pre code-example__code"><code>
+                                function differenceOfSquares(n){
+                                    let sumSqrt = 0;
+                                    let sqrtSum = 0;
+                                    let i = 1;
+                                        while (i <= n) {
+                                        sumSqrt += i * i;
+                                        sqrtSum += i;
+                                        i++;
+                                        }
+                                    return sqrtSum ** 2 - sumSqrt; 
+                                    }
+                                }
+                            </code></pre>
+                </div>
+                <div class="projects">
+                    <h2 class="h2 projects__h2">Projects</h2>
+                    <h3 class="h3 projects__h3">CV#1. Markdown & Git</h3>
+                    <p class="p projects__p">Creating a CV in Markdown format</p>
+                    <a href="https://serhiishf.github.io/rsschool-cv/cv">CV Markdown</a>
+                </div>
+                <div class="education">
+                    <h2 class="h2 education__h2">Education</h2>
+                    <ul class="ul education__ul">
+                        <li class="education__items">DonGTU</li>
+                        <li class="education__items">RSSCHOOL stage 0</li>
+                        <li class="education__items">English A2, Ukranian C1, Russian C2</li>
+                    </ul>
+                </div>
+
+
+
+            </div>
 
         </main>
-        <footer>
+        <footer class="footer">
+            <div class="footer__github">
+                <a href="https://github.com/serhiishf">
+                    <img src="/img/GitHub-logo.png" alt="github logo" class="logo-github footer__logo-github">
+                </a>
+            </div>
 
+            <div class="footer__year">
+                <p class="p footer__p">2021</p>
+            </div>
+            <div class="footer__rsschool">
+                <a href="https://rs.school/js-stage0/">
+                    <img src="/img/logo-rsschool3.png" alt="logo RSSchool" class="logo-rsschool footer__logorsschool">
+                </a>
+
+            </div>
         </footer>
     </div>
 </body>
