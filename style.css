@@ -37,5 +37,215 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+body{
+	height: 100%;
+	font-family: 'Poppins', sans-serif  ;
+	font-size: 15px;
+}
+.page-body {
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
 
+	display: flex;
+	flex-direction: column;
+}
+.content{
+	flex: 1 1 auto;
+	max-width: 1180px;
+	margin: 0px auto;
+}
+.conteiner {
+	max-width: 1180px;
+	margin: 0px auto;
 
+}
+.page-header {
+	max-width: 1180px;
+	margin: 0px auto;
+	border-bottom: solid 1px #000000;
+	padding: 20px 0 0 0;
+}
+.navigation {
+
+}
+.navigation__item{
+
+}
+.navigation__list {
+	display: flex;
+	justify-content: space-around;
+	padding: 0 0 20px 0;
+}
+.navigation__link {
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+}
+.page-main {
+	flex: 1 1 auto;
+}
+.main-content{
+	display: flex;
+}
+.left-side {
+	flex: 0 0 310px;
+	background-color: #e6aa68;
+	color: #ffffff;
+}
+.photo-img {
+	max-width: 200px;
+	padding: 20px 0px;
+	margin: 0 auto;
+}
+.photo-img__img{
+	max-width: 200px;
+	border-radius: 50%;
+}
+.bio {
+
+}
+.h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0 0 10px 0;
+}
+.left-side__h2{
+	text-align: center;
+	background-color: #55595C;
+	padding-top: 10px ;
+}
+.left-side__info{
+	padding: 0 0 30px 15px;
+}
+.left-side__item {
+	padding: 5px 0;
+	text-transform: uppercase;
+}
+.left-side__list{
+	padding: 10px 0 0 10px;
+}
+.bio__h2 {
+}
+.bio__full-name {
+}
+.bio__date-of-birth {
+}
+.bio__relationship {
+}
+.bio__nationality {
+}
+.contact {
+}
+.contact__h2 {
+}
+.contact__phone {
+}
+.contact__tg {
+}
+.contact__github {
+}
+.contact__email {
+}
+.right-side {	
+	flex: 1 1 auto;
+	padding: 0 15px;
+}
+.h1 {
+	font-size: 35px;
+	font-weight: 600;
+	text-align: center;
+	padding: 90px 0 30px 0;
+	text-transform: uppercase;
+}
+.right-side__h2 {
+	font-size: 28px;
+	text-align: center;
+	padding: 0 0 30px 0;
+	font-weight: 600;
+}
+.right-side__item{
+	padding: 0 0 40px 0;
+}
+.about-myself {
+}
+.about-myself__h2 {
+}
+.p {
+}
+.about-myself__p {
+}
+.skills {
+}
+.skills__h2 {
+}
+.ul {
+}
+.skills__ul {
+}
+.li {
+}
+.skills__item {
+}
+.code-example {
+}
+.code-example__h2 {
+}
+.h3 {
+	font-size: 18px;
+}
+.code-example__h3 {
+}
+.code-example__p {
+}
+.pre {
+}
+.code-example__code {
+}
+.projects {
+}
+.projects__h2 {
+}
+.projects__h3 {
+}
+.projects__p {
+}
+.education {
+}
+.education__h2 {
+}
+.education__ul {
+}
+.education__items {
+}
+.footer {
+	display: flex;
+	justify-content: space-around;
+	max-width: 1180px;
+	margin: 0 auto;	
+	align-items: center;
+	padding: 0 0 20px 0;
+		
+}
+.footer__github {
+	padding: 0 40px 0 0;
+}
+.logo-github {
+	max-width: 100px;
+}
+.footer__logo-github {
+}
+.footer__year {
+
+}
+.footer__p {
+	padding: 0 70px 0 0;
+}
+.footer__rsschool {
+}
+.logo-rsschool {
+	max-width: 100px;
+}
+.footer__logorsschool {
+}
