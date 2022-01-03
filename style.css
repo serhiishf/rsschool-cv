@@ -96,7 +96,7 @@ body{
 }
 .photo-img {
 	max-width: 200px;
-	padding: 20px 0px;
+	padding: 30px 0px 70px 0;
 	margin: 0 auto;
 }
 .photo-img__img{
@@ -115,6 +115,7 @@ body{
 	text-align: center;
 	background-color: #55595C;
 	padding-top: 10px ;
+
 }
 .left-side__info{
 	padding: 0 0 30px 15px;
@@ -159,11 +160,16 @@ body{
 	padding: 90px 0 30px 0;
 	text-transform: uppercase;
 }
-.right-side__h2 {
+.main__h2 {
 	font-size: 28px;
 	text-align: center;
 	padding: 0 0 30px 0;
 	font-weight: 600;
+	
+}
+.right-side__h2 {
+	background-color: #decbb7;
+
 }
 .right-side__item{
 	padding: 0 0 40px 0;
@@ -171,14 +177,18 @@ body{
 .about-myself {
 }
 .about-myself__h2 {
+
 }
 .p {
+	padding: 0 0 10px 0;
 }
 .about-myself__p {
 }
 .skills {
 }
 .skills__h2 {
+
+
 }
 .ul {
 }
@@ -189,11 +199,15 @@ body{
 .skills__item {
 }
 .code-example {
+	
 }
 .code-example__h2 {
+
 }
 .h3 {
 	font-size: 18px;
+	padding: 0 0 20px 0;
+	
 }
 .code-example__h3 {
 }
@@ -206,6 +220,7 @@ body{
 .projects {
 }
 .projects__h2 {
+
 }
 .projects__h3 {
 }
@@ -214,6 +229,7 @@ body{
 .education {
 }
 .education__h2 {
+
 }
 .education__ul {
 }
@@ -241,6 +257,8 @@ body{
 }
 .footer__p {
 	padding: 0 70px 0 0;
+	font-weight: 600;
+	font-size: 20px;
 }
 .footer__rsschool {
 }
